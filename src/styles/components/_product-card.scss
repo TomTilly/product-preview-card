@@ -1,0 +1,21 @@
+.product-card {
+  max-inline-size: 36rem;
+  color: var(--grey);
+
+  &__img {
+    block-size: 100%;
+    inline-size: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  &__eyebrow {
+    font-size: var(--s-4);
+    letter-spacing: var(--s-1);
+    text-transform: uppercase;
+  }
+
+  &__title {
+    color: var(--very-dark-blue);
+  }
+}

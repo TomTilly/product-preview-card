@@ -1,0 +1,33 @@
+@use 'sass:math';
+
+:root {
+  // Sizing scale
+  --s-base: 0.875rem;
+  --ratio: 1.5;
+  --s-1: calc(var(--s-2) / var(--ratio));
+  --s-2: calc(var(--s-3) / var(--ratio));
+  --s-3: calc(var(--s-4) / var(--ratio));
+  --s-4: var(--s-base);
+  --s-5: calc(var(--s-4) * var(--ratio));
+  --s-6: calc(var(--s-5) * var(--ratio));
+  --s-7: calc(var(--s-6) * var(--ratio));
+  --s-8: calc(var(--s-7) * var(--ratio));
+  --s-9: calc(var(--s-8) * var(--ratio));
+
+  // Typography
+  --measure: 60ch;
+  --font-body: 'Montserrat', sans-serif;
+  --font-heading: 'Fraunces', serif;
+
+  // Colors
+  --dark-cyan: hsl(158, 36%, 37%);
+  --dark-cyan-shade: hsl(158, 36%, 27%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  --grey: #7f7f7f;
+
+  // Boxes
+  --border-radius: var(--s-2);
+}

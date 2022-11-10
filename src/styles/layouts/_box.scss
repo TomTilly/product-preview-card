@@ -1,0 +1,7 @@
+.box {
+  padding: var(--box-padding, var(--s-6));
+  box-shadow: 1px 1px 5px 0px rgba(237, 237, 237, 0.72);
+  border-radius: var(--border-radius);
+  background-color: var(--white);
+  overflow: hidden;
+}

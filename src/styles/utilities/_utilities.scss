@@ -1,0 +1,61 @@
+@use '../abstracts/tokens' as *;
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.line-height-tight {
+  line-height: 1;
+}
+
+.fs-6 {
+  font-size: var(--s-6);
+}
+
+.mr-2 {
+  margin-inline-end: var(--s-2);
+}
+
+.gap-5 {
+  gap: var(--s-5);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.color-dark-cyan {
+  color: var(--dark-cyan);
+}
+
+.color-very-dark-blue {
+  color: var(--very-dark-blue);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.p-6 {
+  padding: var(--s-6);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
